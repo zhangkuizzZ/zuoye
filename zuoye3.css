@@ -1,0 +1,564 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width: 100%;
+    height: 32px;
+    background: #007ae1;
+}
+.top div {
+    width: 1000px;
+    height: 32px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.top div p {
+    line-height: 32px;
+    margin-left: 27px;
+    width: 260px;
+    height: 32px;
+    float: left;
+    font-size: 12px;
+    font-family: 宋体;
+    color: #fff;
+}
+.top div a {
+    display: block;
+    width: 48px;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+    font-size: 12px;
+    font-family: 宋体;
+    color: #fff;
+    position: absolute;
+    right: 100px;
+    text-decoration: none;
+}
+.top div span a {
+    display: block;
+    width: 48px;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+    font-size: 12px;
+    font-family: 宋体;
+    color: #fff;
+    position: absolute;
+    right: 22px;
+    text-decoration: none;
+}
+
+.nav {
+    width: 100%;
+    height: 96px;
+    background: #eee;
+}
+.nav div {
+    width: 1000px;
+    height: 98px;
+    margin: auto;
+}
+.nav div a img {
+    width: 168px;
+    height: 56px;
+    display: block;
+    float: left;
+    margin: 20px 86px 0 26px;
+}
+.nav ul {
+    float: left;
+    height: 96px;
+}
+.nav ul li {
+    float: left;
+    height: 96px;
+    list-style: none;
+
+}
+.nav ul li a {
+    display: block;
+    color: #494949;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 38px 0px 16px 0;
+}
+.nav-wrap1{
+    margin-right: 54px;
+}
+.nav-wrap2{
+    margin-right: 44px;
+}
+.nav ul li a:hover{
+    border-bottom:3px #007ae1 solid;
+    color: #007ae1;
+}
+.team {
+    width: 100%;
+    height: 515px;
+    background:url("wang1_02.png") no-repeat;
+    background-size: cover;
+}
+.team-wrap {
+    width: 1000px;
+    height: 515px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.team div h4 {
+    font-size: 60px;
+    font-weight: normal;
+    font-family: 宋体;
+    color: #ff4d4d;
+    position: absolute;
+    right: 70px;
+    top: 77px;
+
+}
+.team div h4 span {
+    font-size: 88px;
+    font-family: 宋体;
+}
+.team div ul {
+    position: absolute;
+    right: 210px;
+    top: 167px;
+    overflow: hidden;
+
+}
+.team div ul li {
+    list-style: none;
+    font-size: 18px;
+    color: #fff;
+    line-height: 33px;
+}
+.team div ul li:first-child {
+    padding-top: 25px;
+}
+.team i {
+    width: 242px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    right: 390px;
+    bottom: 20px;
+
+}
+.team i span {
+    display: block;
+    width: 62px;
+    height: 5px;
+    background: #d8d8d8;
+    float: left;
+    margin-right: 18px;
+}
+.team i span:hover {
+    background: #ff0000;
+}
+
+.we {
+    height: 500px;
+    background:url("wang2_02.jpg");
+    position: relative;
+}
+.we div {
+    width: 1000px;
+    height: 500px;
+}
+.we em a {
+    width: 286px;
+    height: 30px;
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 30px 0 0 17px;
+    display: block;
+}
+.we em a span {
+    font-size: 18px;
+}
+.we em a:after{
+    content: url("logo1.png");
+    display: block;
+    float: right;
+}
+.we em {
+    font-size: 30px;
+    font-style: normal;
+
+}
+.we em a span {
+    font-size: 18px;
+    font-style: normal;
+}
+
+.we a img {
+    display: block;
+    float: left;
+}
+.we div {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+.we div h4{
+    font-size: 24px;
+    font-weight: normal;
+    color: #fff;
+    margin: 13px 350px 24px 358px;
+}
+.we div p {
+    line-height: 40px;
+    text-indent: 2em;
+    font-size: 18px;
+    margin-left: 50px;
+    color:#ffffff;
+    overflow: hidden;
+
+}
+.service {
+    width: 100%;
+    height: 552px;
+    background:url("wang3_02.jpg") no-repeat;
+    background-size: cover;
+}
+.service-wrap {
+    width: 1000px;
+    height: 552px;
+    margin: 0 auto;
+}
+.service div h4 {
+    width: 500px;
+    background:url("logo1.png") no-repeat 281px 34px;
+    padding: 30px 0 0 18px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff;
+}
+.service div h4 span {
+    font-size: 18px;
+}
+.service div ul {
+    width: 960px;
+    height: 186px;
+    display: block;
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.service div ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+
+}
+.service div ul li {
+    width: 172px;
+    height: 186px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    background: #4db5f7;
+}
+.service ul li p {
+    width: 98px;
+    height: 98px;
+    background: #ffffff;
+    border-radius: 50px;
+    margin: 26px 39px 0px 39px;
+}
+.service ul li p img {
+    width: 36px;
+    height: 36px;
+    margin: 31px;
+}
+.service div ul li:nth-child(2) {
+    background: #f7b449;
+}
+.service div ul li:nth-child(3) {
+    background: #75c273;
+}
+.service div ul li:nth-child(4) {
+    background: #ff5253;
+}
+.service div ul li:last-child {
+    background: #7265ab;
+}
+.service-box{
+    width: 1000px;
+    height: 130px;
+    margin: 56px auto;
+    background: #fff;
+    overflow: hidden;
+}
+
+.service .service-box h4{
+    padding: 20px 0 0 30px;
+    font-size: 32px;
+    font-weight: normal;
+    color: #585858;
+}
+.service-box p {
+    font-size: 16px;
+    color:#9a9a9a;
+    line-height: 28px;
+    width: 658px;
+    padding: 0 0 0 30px;
+    overflow: hidden;
+}
+.service .service-box a {
+    display: block;
+    height: 56px;
+    width: 192px;
+    background: #328ad7;
+    line-height: 56px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    margin-top:-80px;
+    margin-right: 40px;
+    border-radius: 15px;
+    font-size: 21px;
+    color: #fff;
+    overflow: hidden;
+}
+.service-box a:before {
+    content: url("yunduo.png");
+    display: block;
+    width: 45px;
+    height: 31px;
+    margin: auto;
+    float: left;
+    margin: 10px 0 0 26px;
+}
+.case {
+    background:url("wang4_02.png");
+    height: 726px;
+    width: 100%;
+}
+.case div {
+    width: 1000px;
+    height: 626px;
+    margin: 0 auto;
+}
+.case div h2 {
+    padding-left: 12px;
+    width: 1000px;
+    height: 88px;
+    line-height: 88px;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    background: url("logo1.png") no-repeat  278px 26px;
+}
+.case div h2 span{
+    font-size: 18px;
+    font-weight: normal;
+}
+.box-wrap {
+    width: 310px;
+    height: 290px;
+    float: left;
+    display: block;
+}
+.case div p {
+    font-size: 21px;
+    color: white;
+    margin:16px 0 0 106px;
+}
+.box-wrap ul {
+    overflow:hidden ;
+}
+.box-wrap li{
+    float: left;
+    list-style: none;
+    margin:0 30px 36px 6px
+
+}
+.box-wrap li:nth-child(3){
+    float: left;
+    list-style: none;
+    margin:0;
+}
+.box-wrap li:last-child{
+    float: left;
+    list-style: none;
+    margin:0;
+}
+.news {
+    width: 100%;
+    height: 514px;
+    background:url("wang5_06.png") no-repeat;
+    background-size: cover;
+}
+.news .box {
+    width: 1000px;
+    height: 98px;
+    margin: auto;
+}
+
+.news .box h4 {
+    width: 500px;
+    background:url("logo1.png") no-repeat 281px 34px;
+    padding: 30px 0 0 18px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff;
+}
+.news .box h4 span {
+    font-size: 18px;
+}
+.news .box1{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.news .left {
+    width: 465px;
+    float: left;
+    margin-left: 10px;
+}
+.news .box1 div h4 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: normal;
+
+}
+.news .box1 div h4 i {
+    font-size: 28px;
+    font-style: normal;
+
+}
+.news .box1 div h4 em {
+    font-size: 14px;
+    font-style: normal;
+}
+.news .box1 div h4 a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+
+    float: right;
+}
+.news .box1 div ul li {
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+}
+.news .box1 div ul li a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+
+}
+.news .box1 div ul li i {
+    font-size: 16px;
+    color: #fff;
+    float: right;
+    font-style: normal;
+}
+.news .right {
+    width: 465px;
+    float: right;
+}
+.news .box1 div h4 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: normal;
+
+}
+.news .box1 div h4 i {
+    font-size: 28px;
+    font-style: normal;
+
+}
+.news .box1 div h4 em {
+    font-size: 14px;
+    font-style: normal;
+}
+.news .box1 div h4 a {
+    font-size: 16px;
+    color: #fff;
+    float: right;
+    text-decoration: none;
+}
+.news .box1 div ul{}
+.news .box1 div ul li {
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+}
+.news .box1 div ul li a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+
+}
+.news .box1 div ul li i {
+    font-size: 16px;
+    color: #fff;
+    float: right;
+    font-style: normal;
+}
+.partner {
+    width: 100%;
+    height: 222px;
+    background: #eeeeee;
+}
+.partner h4 {
+    padding-left: 53px;
+    width: 1000px;
+    height: 88px;
+    line-height: 88px;
+    font-size: 24px;
+    color: #027cc5;
+    font-weight: normal;
+    background: url("lankuang.png") no-repeat  21px 34px;
+}
+
+.partner div {
+    width: 1000px;
+    height: 222px;
+    margin: 0 auto;
+}
+.partner div .partner-on {
+    display: block;
+    width: 998px;
+    height: 74px;
+    border: 1px #858585 solid;
+    border-radius: 10px;
+}
+.partner div .partner-on img {
+    display: block;
+    margin: 26px 0px 14px 70px;
+    float: left;
+}
+.footer{
+    width: 100%;
+    height: 110px;
+    background: #0a98e0;
+}
+.footer div {
+    width: 1000px;
+    height: 110px;
+    margin: 0 auto;
+}
+.footer div p {
+    padding-top: 23px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+}
+.footer div span{
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+}
