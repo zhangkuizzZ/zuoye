@@ -1,0 +1,900 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top {
+    width: 100%;
+    height: 36px;
+    background: #f8f7f7;
+    border-bottom: 1px #e9e8e8 solid;
+}
+.top-box {
+    width: 1172px;
+    height: 36px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.top .left p {
+    width: 131px;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    margin-right: 17px;
+}
+.top .left p span {
+    width: 131px;
+    font-size: 12px;
+    color: #b6b6b6;
+    margin: 0 0 0 11px;
+}
+.top .left p i {
+    display: block;
+    height: 13px;
+    line-height: 36px;
+    border-right: 1px #242424 solid;
+    margin-top: -23px;
+}
+.top ul {
+    width: 320px;
+    height: 36px;
+    float: right;
+}
+.top ul li {
+    list-style: none;
+    float: left;
+    width: 34px;
+    margin-top: 10px;
+    border-left: 1px #e9e8e8 solid;
+}
+.top ul li:last-child {
+    list-style: none;
+    float: left;
+    width: 34px;
+    margin-top: 10px;
+    border-left: 1px #e9e8e8 solid;
+    border-right: 1px #e9e8e8 solid;
+}
+.top ul li img {
+    margin-left: 9px;
+}
+.nav {
+    width: 100%;
+    height: 96px;
+    background: #fff;
+}
+.nav .nav-top {
+    width: 1172px;
+    height: 96px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.nav .nav-top .left {
+    height: 96px;
+    width: 270px;
+    float: left;
+}
+.nav .nav-top .left a {
+    height: 96px;
+    line-height: 96px;
+    text-decoration: none;
+    color: #171717;
+    font-size: 18px;
+    display: block;
+    float:left;
+}
+.nav .nav-top .left a:last-child {
+    float: right;
+}
+.nav .nav-top .left a:hover{
+    border-top: 1px #8d57d1 solid;
+}
+.nav .nav-top .left .margin12 {
+    margin-left: 12px;
+}
+.nav .nav-top .left .margin24 {
+    margin-left: 28px;
+}
+.nav .nav-top .left .margin28 {
+    margin-left: 33px;
+}
+.nav .nav-top p a img {
+    display: block;
+    position: absolute;
+    left: 494px;
+    top:22px;
+}
+.nav .nav-top .right {
+    height: 96px;
+    width: 310px;
+    float: right;
+}
+.nav .nav-top .right a img {
+    display: block;
+    float: right;
+    margin-top: 32px;
+}
+.nav .nav-top .right a {
+    height: 96px;
+    line-height: 96px;
+    text-decoration: none;
+    color: #171717;
+    font-size: 18px;
+    display: block;
+    float:left;
+}
+.nav .nav-top .right a:last-child {
+    float: right;
+}
+.nav .nav-top .right a:hover{
+    border-top: 1px #8d57d1 solid;
+}
+.nav .nav-top .right .margin28 {
+    margin-right: 28px;
+}
+.nav .nav-top .right .margin32 {
+    margin-right: 32px;
+}
+.banner {
+    width: 100%;
+    height: 532px;
+    background:url("img/tu1.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-cover {
+    width: 100%;
+    height: 532px;
+    background: rgba(135,94,174,0.7);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.banner-main {
+    width: 1172px;
+    height:532px;
+    margin: 0 auto;
+}
+.banner .banner-main h2 {
+    display: block;
+    width: 253px;
+    height: 48px;
+    font-size: 40px;
+    font-weight: normal;
+    color: #fff;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 112px;
+}
+.banner .banner-main h4 {
+    margin: auto;
+    margin-top: 26px;
+    width: 896px;
+    height: 38px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff;
+    overflow: hidden;
+}
+.banner .banner-main p {
+    margin:auto;
+    margin-top: 70px;
+    width: 814px;
+    height: 46px;
+    font-size: 18px;
+    color: #fff;
+    overflow: hidden;
+}
+.banner .banner-main a {
+    display: block;
+    width: 170px;
+    height: 40px;
+    background: #171717;
+    margin: auto;
+    line-height: 40px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 42px;
+
+}
+.main {
+    width: 100%;
+    height: 234px;
+}
+.main-box {
+    height: 234px;
+    width: 1172px;
+    margin: 0 auto;
+}
+.main .main-box p {
+    width: 194px;
+    height: 36px;
+    overflow: hidden;
+    margin-top: 31px;
+}
+.main .main-box p a {
+    display: block;
+    width: 88px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    color: #fff;
+    background: #7d7d7d;
+    margin-right: 9px;
+}
+.main .main-box p a:hover {
+    background: #8d57d1;
+}
+.main .main-box ul {
+    width: 1169px;
+    height: 110px;
+}
+.main .main-box ul li {
+    list-style: none;
+    float: left;
+    margin: 30px 0;
+}
+.main .main-box ul li a {
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    background: #8d57d1;
+    color: #fff;
+}
+.width569 {
+    width: 569px;
+    height: 40px;
+    border-radius: 3px;
+    margin-right: 24px;
+}
+.width270 {
+    width: 270px;
+    height: 40px;
+    border-radius: 3px;
+}
+.width270 {
+    width: 270px;
+    height: 40px;
+    border-radius: 3px;
+    margin-right: 24px;
+}
+.width269 {
+    width: 269px;
+    height: 40px;
+    border-radius: 3px;
+}
+.width271 {
+    width: 270px;
+    height: 40px;
+    margin-right: 324px;
+    background:  url(img/tubiao_03.png)no-repeat 240px 9px;
+}
+.main2 {
+    width: 100%;
+    height: 1128px;
+    background: #f8f7f7;
+    overflow: hidden;
+}
+.main2-top {
+    width: 1172px;
+    height: 1128px;
+    margin: 0 auto;
+    border: 1px #fff solid;
+    position: relative;
+
+}
+.top-box {
+    width: 1172px;
+    height: 230px;
+}
+.main2-top h3 {
+    display: block;
+    width: 274px;
+    height: 57px;
+    font-size: 18px;
+    color: #8855c8;
+    line-height: 57px;
+    text-align: center;
+    border-bottom: 1px #d5d5d5 solid;
+    margin: 60px 0 0 450px;
+}
+.main2 .main2-top span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-top:3px #171717 solid;
+    margin: -2px 0 0 571px;
+}
+.main2 .main2-top p {
+    width: 750px;
+    line-height: 24px;
+    color: #5c5c5c;
+    font-size: 12px;
+    overflow: hidden;
+    margin: 7px 0 20px 210px;
+
+}
+.main2 .main2-top .top-box div {
+    width: 76px;
+    height: 26px;
+    overflow: hidden;
+    position: absolute;
+    left: 554px;
+    top: 203px;
+
+}
+.main2 .main2-top div a {
+    display: block;
+    width: 26px;
+    height: 26px;
+    float: left;
+    background: #171717;
+    color: #fff;
+    text-decoration: none;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 10px;
+
+}
+.main2 .main2-top .top-box div a:hover {
+    background: #8d57d1;
+}
+
+.main2 .main2-top ul {
+    margin-top: 18px;
+    width: 1172px;
+    height: 750px;
+    overflow: hidden;
+}
+.main2 .main2-top ul li {
+    list-style: none;
+    float: left;
+    width: 271px;
+    height: 340px;
+    margin-right: 28px;
+    margin-top: 32px;
+    position: relative;
+}
+.cover {
+    position: absolute;
+    width: 271px;
+    height: 269px;
+    background: rgba(127,98,156,0.5);
+    top: 0;
+    left: 0;
+    display: none;
+}
+.main2 .main2-top ul li:hover .cover {
+    display: block;
+    background:url("img/shizi_03.png") rgba(127,98,156,0.5) no-repeat center center;
+}
+
+.main2 .main2-top ul li:nth-child(4) {
+    list-style: none;
+    float: left;
+    width: 271px;
+    height: 340px;
+    margin-right: 0;
+}
+.main2 .main2-top ul li:last-child {
+    list-style: none;
+    float: left;
+    width: 271px;
+    height: 340px;
+    margin-right: 0;
+}
+.main2 .main2-top ul li h4 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #171717;
+    margin: 16px 0 11px 21px;
+}
+.main2 .main2-top ul li i {
+    font-style: normal;
+    font-size: 12px;
+    margin: 0 0 11px 22px;
+    color: #8855c8;
+}
+.main2 .main2-top ul li a {
+    background: #8855c8;
+    display: block;
+    width: 48px;
+    height: 34px;
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    line-height: 34px;
+    text-align: center;
+    font-size: 12px;
+    margin:-20px 20px 0 0;
+}
+.main2 .main2-top .border{
+    display: block;
+    margin: 30px auto;
+    width: 273px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px #d5d5d5 solid;
+}
+.banner2 {
+    width: 100%;
+    height: 585px;
+    background:url("img/tu2.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner2-cover {
+    width: 100%;
+    height: 585px;
+    background: rgba(33,33,33,0.9);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.banner2-top {
+    width: 1172px;
+    height: 585px;
+    margin: 0 auto;
+    /*border: 1px #fff solid;*/
+    position: relative;
+}
+.banner2-top h3 {
+    display: block;
+    width: 274px;
+    height: 57px;
+    font-size: 18px;
+    color: #8855c8;
+    line-height: 57px;
+    text-align: center;
+    border-bottom: 1px #6a6969 solid;
+    margin: 60px 0 0 450px;
+}
+.banner2 .banner2-top span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-top:3px #fff solid;
+    margin: -2px 0 0 571px;
+}
+.banner2 .banner2-top p {
+    width: 750px;
+    line-height: 24px;
+    color: #5c5c5c;
+    font-size: 12px;
+    overflow: hidden;
+    margin: 7px 0 20px 210px;
+
+}
+.banner2 .banner2-top .top-box div {
+    width: 76px;
+    height: 26px;
+    overflow: hidden;
+    position: absolute;
+    left: 554px;
+    top: 203px;
+
+}
+.banner2 .banner2-top div a {
+    display: block;
+    width: 26px;
+    height: 26px;
+    float: left;
+    background: #747474;
+    color: #fff;
+    text-decoration: none;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 10px;
+
+}
+.banner2 .banner2-top .top-box div a:hover {
+    background: #8d57d1;
+}
+.banner2 .banner2-top i {
+    display: block;
+    width:1205px;
+    height: 75px;
+    line-height: 25px;
+    font-style: normal;
+    font-size: 12px;
+    color: #fff;
+    text-indent: 48px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+.banner2 .banner2-top em {
+    width: 273px;
+    height: 229px;
+    font-style: normal;
+    position: absolute;
+    left: 546px;
+    top: 392px;
+}
+.banner2  em h6 {
+    width: 68px;
+    height: 68px;
+    background: #fff;
+    border-radius: 34px;
+}
+.banner2  em h6 img {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+
+}
+.banner2  em h4 {
+    font-weight: normal;
+    font-size: 12px;
+    color: #8d57d1;
+    margin:16px 0 0 16px;
+}
+.banner2  em h5 {
+    font-weight: normal;
+    font-size: 12px;
+    color: #acacac;
+    margin-top: 12px;
+
+}
+.main3 {
+    width: 100%;
+    height:757px;
+}
+.main3-top {
+    width: 1172px;
+    height: 585px;
+    margin: 0 auto;
+    /*border: 1px #fff solid;*/
+    position: relative;
+}
+.main3-top h3 {
+    display: block;
+    width: 274px;
+    height: 57px;
+    font-size: 18px;
+    color: #8855c8;
+    line-height: 57px;
+    text-align: center;
+    border-bottom: 1px #d5d5d5 solid;
+    margin: 60px 0 0 450px;
+}
+.main3 .top-box span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-top:3px #171717 solid;
+    margin: -2px 0 0 571px;
+}
+.main3 .top-box p {
+    width: 750px;
+    line-height: 24px;
+    color: #5c5c5c;
+    font-size: 12px;
+    overflow: hidden;
+    margin: 7px 0 20px 210px;
+
+}
+.main3 .top-box div {
+    width: 76px;
+    height: 26px;
+    overflow: hidden;
+    position: absolute;
+    left: 554px;
+    top: 203px;
+
+}
+.main3 .top-box div a {
+    display: block;
+    width: 26px;
+    height: 26px;
+    float: left;
+    background: #171717;
+    color: #fff;
+    text-decoration: none;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 10px;
+
+}
+.main3 .top-box div a:hover {
+    background: #8d57d1;
+}
+.main3 ul {
+    margin-top: 50px;
+}
+.main3 .main3-top ul {
+    width: 1171px;
+    height: 490px;
+    overflow: hidden;
+
+}
+.main3 .main3-top ul li {
+    float: left;
+    list-style: none;
+    width: 270px;
+    height: 430px;
+    margin-right: 30px;
+    position: relative;
+}
+.main3 .main3-top ul li:last-child{
+    float: left;
+    list-style: none;
+    width: 270px;
+    height: 410px;
+    margin-right:0;
+}
+.main3 .main3-top ul li h1 {
+    font-weight: normal;
+    font-size: 16px;
+    color: #8855c8;
+    text-align: center;
+    margin-top: 20px;
+}
+.main3 .main3-top ul li h2 {
+    margin-top: 17px;
+    font-weight: normal;
+    font-size: 12px;
+    color: #5c5c5c;
+    text-align: center;
+}
+.main3 .main3-top ul li h6 {
+    margin-top: 17px;
+    font-weight: normal;
+    font-size: 12px;
+    color: #8855c8;
+}
+.main3 .main3-top ul li h4 {
+    font-weight: normal;
+    font-size: 12px;
+    color: #acacac;
+
+}
+.main3 .main3-top ul li h5 {
+    font-weight: normal;
+    font-size: 12px;
+    color: #acacac;
+}
+.main3 .main3-top ul li a {
+    display:block;
+    font-size: 12px;
+    color: #8855c8;
+    float: right;
+}
+.main3-cover {
+    position: absolute;
+    width: 278px;
+    height: 278px;
+    background: rgba(127,98,156,0.5);
+    top: 0;
+    left: 0;
+    display: none;
+}
+.main3 ul li:hover .main3-cover {
+    display: block;
+    background:url("img/situ.png") rgba(127,98,156,0.5) no-repeat center center;
+}
+.main4 {
+    width: 100%;
+    height: 416px;
+    background: #f8f7f7;
+}
+.main4-top {
+    width: 1172px;
+    height: 416px;
+    margin: 0 auto;
+    /*border: 1px #fff solid;*/
+    position: relative;
+}
+.main4-top h3 {
+    display: block;
+    width: 274px;
+    height: 57px;
+    font-size: 18px;
+    color: #8855c8;
+    line-height: 57px;
+    text-align: center;
+    border-bottom: 1px #d5d5d5 solid;
+    margin: 60px 0 0 450px;
+}
+.main4 .top-box span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-top:3px #171717 solid;
+    margin: -2px 0 0 571px;
+}
+.main4 .top-box p {
+    width: 750px;
+    line-height: 24px;
+    color: #5c5c5c;
+    font-size: 12px;
+    overflow: hidden;
+    margin: 7px 0 20px 210px;
+
+}
+.main4 .top-box div {
+    width: 76px;
+    height: 26px;
+    overflow: hidden;
+    position: absolute;
+    left: 554px;
+    top: 203px;
+
+}
+.main4 .top-box div a {
+    display: block;
+    width: 26px;
+    height: 26px;
+    float: left;
+    background: #171717;
+    color: #fff;
+    text-decoration: none;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 10px;
+
+}
+.main4 .top-box div a:hover {
+    background: #8d57d1;
+}
+.main4 .main4-top ul {
+    width: 1171px;
+    height: 71px;
+    margin-top: 50px;
+}
+.main4 .main4-top ul li {
+    list-style: none;
+    display: block;
+    float: left;
+    margin-right: 30px;
+}
+.main4 .main4-top ul li:last-child {
+    list-style: none;
+    display: block;
+    float: left;
+    margin-right:0;
+}
+.main5 {
+    width: 100%;
+    height: 454px;
+    background: #171717;
+}
+.main5-top {
+    width: 1172px;
+    height: 454px;
+    border: 1px #171717 solid;
+    margin: 0 auto;
+}
+.main5-top ul {
+    margin-top: 50px;
+    overflow: hidden;
+}
+.main5-top ul li {
+    list-style:none;
+    width: 290px;
+    height: 313px;
+    float: left;
+}
+.main5-top ul li h2 {
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 1px #282828 solid;
+}
+.main5-top ul li span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-top:3px #5c5c5c solid;
+    margin-top: -2px;
+    margin-bottom: 17px;
+}
+.main5-top ul li p {
+    overflow: hidden;
+    margin-top: 21px;
+    width: 300px;
+    height: 122px;
+    line-height: 21px;
+    font-size: 12px;
+    color: #acacac;
+}
+.main5-top ul li i {
+    display: block;
+    margin-top: 28px;
+}
+.main5-top ul li div {
+    width: 273px;
+    height: 42px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.main5-top ul li div img {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.main5-top ul li div b {
+    display: block;
+    width: 224px;
+    height: 42px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #acacac;
+    float: right;
+}
+.main5-top ul li em {
+    display: block;
+    width: 300px;
+    height: 70px;
+    font-style: normal;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.main5-top ul li em img {
+    display: block;
+    float: left;
+}
+.main5-top ul li em div {
+    width: 200px;
+    height: 70px;
+    float: right;
+    overflow: hidden;
+
+}
+.main5-top ul li div b {
+    font-weight: normal;
+    width: 180px;
+    height: 36px;
+    display: block;
+    font-size: 12px;
+    color: #acacac;
+    float: left;
+
+}
+.main5-top ul li div strong {
+    font-weight: normal;
+    font-size: 12px;
+    color: #5c5c5c;
+    display: block;
+    float: left;
+}
+.main5-top ul li h1 {
+    width: 257px;
+    overflow: hidden;
+}
+.main5-top ul li h5 {
+    font-weight: normal;
+    font-size: 14px;
+    color: #8855c8;
+    float: left;
+}
+.main5-top ul li h6 {
+    font-weight: normal;
+    font-size: 10px;
+    color: #fff;
+    float: right;
+}
+.footer {
+    background: #111111;
+    width: 100%;
+    height: 74px;
+}
+.footer-top {
+    width: 1172px;
+    height: 74px;
+    line-height: 74px;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
